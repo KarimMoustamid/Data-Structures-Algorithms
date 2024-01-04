@@ -1,9 +1,6 @@
-﻿using System;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
-
-string[] nemoCharacters = new string[]
-{
+string[] nemoCharacters = {
     "Nemo",
     "Marlin",
     "Dory",
@@ -49,6 +46,8 @@ void findNemo(string[] Array)
         if (item.Equals("nemo"))
         {
             Console.WriteLine("Found Nemo");
+            break;
+            
         }
     }
 }
